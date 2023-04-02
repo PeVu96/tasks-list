@@ -8,4 +8,42 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+}
+
+.bodyContainer {
+    margin: auto;
+    max-width: 800px;
+}
+
+.section {
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+.section__header {
+    border-bottom: 2px solid #eee;
+    padding: 15px;
+    font-size: medium;
+    margin: 0;
+}
+
+.section__body {
+    padding: 15px;
+}
+
+.form__input {
+    padding: 10px;
+}
+
+.form__button {
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tasks__list {
+    list-style: none;
 }

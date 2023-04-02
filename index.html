@@ -2,28 +2,41 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista zadań</title>
-    <link href="css/style.css" rel="stylesheet">
-    <script defer src="js/script.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista zadań</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <form class="js-form">
-        <input class="js-newTask">
-        <button>Dodaj zadanie</button>
-    </form>
-    <li class="js-tasks"></li>
+  <main class="bodyContainer">
+    <h1>Lista zadań</h1>
+    <section class="section">
+      <h2 class="section__header">Dodaj nowe zadanie</h2>
+      <div class="section__body">
+        <form class="js-form">
+          <input class="form__input js-newTask" placeholder="Co jest do zrobienia?" autofocus>
+          <button class="form__button">Dodaj zadanie</button>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__header">Lista zadań</h2>
+      <div class="section__body">
+        <li class="js-tasks tasks__list"></li>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
