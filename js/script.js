@@ -1,13 +1,5 @@
 {
   const tasks = [
-    {
-      content: "Zaprogramować listę zadań",
-      done: false,
-    },
-    {
-      content: "Zjeść obiad",
-      done: true,
-    },
   ];
 
   const addNewTask = (newTaskContent) => {
@@ -54,8 +46,8 @@
         <li
         class="list__item"${task.done ? " list__item--done" : ""}
         >
-          <button class="tasks__button tasks__button--done js-done">czy zrobione?</button>
-          <button class="tasks__button tasks__button--remove js-remove">usuń</button>
+          <button class="tasks__button tasks__button--done js-done"></button>
+          <button class="tasks__button tasks__button--remove js-remove"></button>
           ${task.content}
         </li>
       `;
