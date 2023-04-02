@@ -66,16 +66,13 @@ body {
     align-items: baseline;
 }
 
-.list__item--done {
-    text-decoration: line-through;
-}
-
 .tasks__button {
     width: 25px;
     height: 25px;
     padding: 6px;
     margin: 10px;
     border: none;
+    color: white;
 }
 
 .tasks__button--done {
