@@ -1,0 +1,15 @@
+.tasks__list {
+    list-style: none;
+    grid-template-columns: auto 1fr auto;
+}
+
+.list__item {
+    border-bottom: 2px solid #eee;
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
+    align-items: baseline;
+}
+
+.list__item--done {
+    text-decoration: line-through;
+}
