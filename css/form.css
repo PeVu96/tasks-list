@@ -19,3 +19,10 @@
 .form__button:hover {
     background-color: #00808080;
 }
+
+@media (max-width: 767px) {
+    .form__button {
+        grid-row-start: 2;
+        max-width: 100%;
+    }
+}
