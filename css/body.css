@@ -6,13 +6,10 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #eee;
-    word-break: break-all;
-}
-
 .bodyContainer {
     margin: auto;
     max-width: 800px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+    word-break: break-all;
 }
