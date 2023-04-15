@@ -1,15 +1,15 @@
 .tasks__button {
     width: 25px;
     height: 25px;
-    padding: 6px;
+    padding: 5px;
     margin: 10px;
     border: none;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
 }
 
 .tasks__button--done {
-    background-color: darkgreen;
+    background-color: #006400;
 }
 
 .tasks__button--done:hover {
@@ -17,11 +17,9 @@
 }
 
 .tasks__button--remove {
-    background-color: crimson;
-    grid-column: 3;
-    grid-row: 1;
+    background-color: #dc143c;
 }
 
 .tasks__button--remove:hover {
-    background-color: rgba(220, 20, 60, 0.5);
+    background-color: #dc143c80;
 }

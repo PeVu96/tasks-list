@@ -10,8 +10,8 @@
 
 .form__button {
     border: none;
-    background-color: teal;
-    color: white;
+    background-color: #008080;
+    color: #ffffff;
     padding: 10px;
     cursor: pointer;
 }
