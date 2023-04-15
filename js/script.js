@@ -70,6 +70,7 @@
 
     addNewTask(newTaskContent);
     inputElement.value = "";
+    inputElement.focus();
   };
 
   const init = () => {
