@@ -14,10 +14,12 @@
     color: #ffffff;
     padding: 10px;
     cursor: pointer;
+    transition: 1s;
 }
 
 .form__button:hover {
-    background-color: #00808080;
+    background-color: #008080bf;
+    transform: scale(1.2);
 }
 
 @media (max-width: 767px) {

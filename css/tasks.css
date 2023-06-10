@@ -9,17 +9,19 @@
 }
 
 .tasks__button--done {
-    background-color: #006400;
+    background-color: #006600;
+    transition: 1s;
 }
 
 .tasks__button--done:hover {
-    background-color: #00660080;
+    background-color: #006600bf;
 }
 
 .tasks__button--remove {
     background-color: #dc143c;
+    transition: 1s;
 }
 
 .tasks__button--remove:hover {
-    background-color: #dc143c80;
+    background-color: #db143cbf;
 }
