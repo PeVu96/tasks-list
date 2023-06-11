@@ -6,8 +6,10 @@
 .list__item {
     border-bottom: 2px solid #eee;
     display: grid;
-    grid-template-columns: 1fr 20fr 1fr;
-    align-items: baseline;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px;
+    grid-gap: 10px;
 }
 
 .list__item--done {
