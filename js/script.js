@@ -52,10 +52,10 @@
   };
 
   const renderTasks = () => {
-    let htmlString = "";
+    let tasksListHTMLContent = "";
 
     for (const task of tasks) {
-      htmlString += `
+      tasksListHTMLContent += `
     <li
       class="list__item"${task.done ? " list__item--done" : ""}
     >
@@ -72,7 +72,7 @@
   `;
     }
 
-    document.querySelector(".js-tasks").innerHTML = htmlString;
+    document.querySelector(".js-tasks").innerHTML = tasksListHTMLContent;
   };
 
   const renderButtons = () => {
