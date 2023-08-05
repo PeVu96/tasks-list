@@ -60,13 +60,13 @@
       class="list__item"${task.done ? " list__item--done" : ""}
     >
       <button class="tasks__button tasks__button--done js-done">
-        ${task.done ? "✓" : ""}
+        ${task.done ? "&#10004" : ""}
       </button>
       <span class="${task.done ? "list__item--done" : ""}">
         ${task.content}
       </span>
       <button class="tasks__button tasks__button--remove js-remove">
-        🗑
+        &#128465
       </button>
     </li>
   `;

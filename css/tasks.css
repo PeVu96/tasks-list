@@ -1,9 +1,12 @@
 .tasks__button {
-    width: 30px;
-    height: 30px;
     border: none;
     color: #ffffff;
     cursor: pointer;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .tasks__button--done {
