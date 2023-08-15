@@ -30,14 +30,15 @@
     <section class="section">
       <h2 class="section__header">Dodaj nowe zadanie</h2>
       <form class="formContainer js-form">
-        <input class="form__input js-newTask" placeholder="Co jest do zrobienia?">
+        <input class="form__input js-newTask" placeholder="Co jest do zrobienia?" autofocus>
         <button class="form__button">Dodaj zadanie</button>
       </form>
     </section>
     <section class="section">
       <h2 class="section__header">Lista zadań</h2>
+      <div class="js-buttons"></div>
       <ul class="tasks__list js-tasks">
-        <li></li>
+        <li class="tasks__list--hidden"></li>
       </ul>
     </section>
   </main>
