@@ -1,6 +1,6 @@
 .tasks__list {
-    list-style: none;
-    grid-template-columns: auto 1fr auto;
+    padding: 10px 0px 20px;
+    margin: 0px 10px
 }
 
 .list__item {
