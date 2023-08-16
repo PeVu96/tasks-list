@@ -6,9 +6,11 @@ https://pevu96.github.io/tasks-list/
 This is my third project - simple tasks list.
 
 In my project you can do few things:
-- add a new task to the list using the button
-- mark the task as done with the green button
-- delete the task with the red button
+- add a new task to the list
+- mark tasks as done with the green button
+- delete tasks with the red button
+- hide completed tasks
+- complete all tasks
 
 Below you can find what page looks like. Enjoy!
 
