@@ -10,3 +10,13 @@
     font-size: medium;
     margin: 0;
 }
+
+.section__buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.section__body {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}

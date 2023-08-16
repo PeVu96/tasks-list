@@ -19,3 +19,21 @@
 .list__item--hidden {
     display: none;
 }
+
+.list__button {
+    border: none;
+    border-bottom: 2px solid #eee;
+    background-color: #fff;
+    color: hsl(180, 100%, 25%);
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.list__button:hover {
+    color: #008080b3;
+}
+
+.list__button:disabled {
+    color: #ccc;
+    cursor: auto;
+}

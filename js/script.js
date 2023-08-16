@@ -116,37 +116,37 @@
     };
   };
 
-const render = () => {
-  renderTasks();
-  renderButtons();
+  const render = () => {
+    renderTasks();
+    renderButtons();
 
-  bindRemoveEvents();
-  bindToggleDoneEvents();
-  bindButtonsEvents();
-};
-
-const onFormSubmit = (event) => {
-  event.preventDefault();
-
-  const inputElement = document.querySelector(".js-newTask");
-  const newTaskContent = document.querySelector(".js-newTask").value.trim();
-
-  if (newTaskContent === "") {
-    return;
+    bindRemoveEvents();
+    bindToggleDoneEvents();
+    bindButtonsEvents();
   };
 
-  addNewTask(newTaskContent);
-  inputElement.value = "";
-  inputElement.focus();
-};
+  const onFormSubmit = (event) => {
+    event.preventDefault();
 
-const init = () => {
-  render();
+    const inputElement = document.querySelector(".js-newTask");
+    const newTaskContent = document.querySelector(".js-newTask").value.trim();
 
-  const form = document.querySelector(".js-form");
+    if (newTaskContent === "") {
+      return;
+    };
 
-  form.addEventListener("submit", onFormSubmit);
-};
+    addNewTask(newTaskContent);
+    inputElement.value = "";
+    inputElement.focus();
+  };
 
-init();
+  const init = () => {
+    render();
+
+    const form = document.querySelector(".js-form");
+
+    form.addEventListener("submit", onFormSubmit);
+  };
+
+  init();
 }
