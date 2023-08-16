@@ -24,13 +24,14 @@
     border: none;
     border-bottom: 2px solid #eee;
     background-color: #fff;
-    color: hsl(180, 100%, 25%);
+    color: #008080;
     padding-right: 20px;
     cursor: pointer;
+    transition: 1s;
 }
 
 .list__button:hover {
-    color: #008080b3;
+    color: #00808080;
 }
 
 .list__button:disabled {
