@@ -14,9 +14,3 @@ html {
     background-color: #eee;
     word-break: break-all;
 }
-
-@media (max-width: 767px) {
-    .bodyContainer {
-        max-width: 85%;
-    }
-}

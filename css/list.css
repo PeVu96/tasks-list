@@ -38,3 +38,10 @@
     color: #ccc;
     cursor: auto;
 }
+
+@media (max-width: 768px) {
+    .list__button {
+        padding: 10px;
+        border: none;
+    }
+}
