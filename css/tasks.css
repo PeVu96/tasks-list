@@ -1,3 +1,8 @@
+.tasks__list {
+    padding: 10px 0px 20px;
+    margin: 0px 10px
+}
+
 .tasks__button {
     border: none;
     color: #ffffff;
