@@ -1,18 +1,24 @@
-.formContainer {
+.form {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
-    padding: 15px;
+}
+
+@media (max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
 }
 
 .form__input {
     padding: 10px;
+    border: 1px solid #ddd;
 }
 
 .form__button {
     border: none;
     background-color: #008080;
-    color: #ffffff;
+    color: #fff;
     padding: 10px;
     cursor: pointer;
     transition: 1s;
@@ -23,8 +29,6 @@
     transform: scale(1.2);
 }
 
-@media (max-width: 768px) {
-    .formContainer {
-        grid-template-columns: repeat(1, 1fr);
-    }
+.form__button:active {
+    background-color: #00808080;    
 }
